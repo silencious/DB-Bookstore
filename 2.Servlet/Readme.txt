@@ -1,31 +1,29 @@
-5130379056 Ìï¼ÎºÌ
-
-Êı¾İ¿âWeb¿ª·¢µÚ¶ş´Îµü´ú
+æ•°æ®åº“Webå¼€å‘ç¬¬äºŒæ¬¡è¿­ä»£
 JSP+Servlet+Tomcat
 
-WebContentÄ¿Â¼£º
- Ê¹ÓÃjquery-easyui£»
- META-INFÄ¿Â¼ÏÂ£º
-  context.xml¼ÇÂ¼ÁËÁ¬½ÓÊı¾İ¿âµÄĞÅÏ¢£»
- WEB-INFÄ¿Â¼£º
-  Ê¹ÓÃDynamic web module 3.0£¬²»ĞèÒªweb.xmlÎÄ¼ş£»
-  °üº¬mysqlÁ¬½ÓµÄjar°üºÍjsonÊı¾İ¸ñÊ½µÄjar°ü£»
+WebContentç›®å½•ï¼š
+ ä½¿ç”¨jquery-easyuiï¼›
+ META-INFç›®å½•ä¸‹ï¼š
+  context.xmlè®°å½•äº†è¿æ¥æ•°æ®åº“çš„ä¿¡æ¯ï¼›
+ WEB-INFç›®å½•ï¼š
+  ä½¿ç”¨Dynamic web module 3.0ï¼Œä¸éœ€è¦web.xmlæ–‡ä»¶ï¼›
+  åŒ…å«mysqlè¿æ¥çš„jaråŒ…å’Œjsonæ•°æ®æ ¼å¼çš„jaråŒ…ï¼›
 
- Ä¬ÈÏ´ÓÖ÷Ò³(index.jsp)Ìø×ªµ½ËÑË÷Ò³(search.jsp)£»
- ÓÃ»§ÔÚËÑË÷Ò³¼üÈë¹Ø¼ü×ÖËÑË÷£¬ÇëÇóBookServlet»ñµÃÊı¾İ²¢ÏÔÊ¾£»
- Î´µÇÂ¼ÓÃ»§Ò²¿ÉÒÔ´ÓËÑË÷Ò³Ñ¡ÔñÊéÄ¿¼ÓÈë¹ºÎï³µ(´æÈësession)£¬¿ÉÒÔÑ¡Ôñ×¢²á(register.jsp)»òµÇÂ¼(login.jsp)£»
- ×¢²áÍ¨¹ıÇëÇóUserServletÍê³É£»
- µÇÂ¼Í¨¹ıÇëÇóUserSessionÍê³É£»
- µÇÂ¼ºóÌø×ªµ½¸öÈËÖĞĞÄ(me.jsp)£¬¿ÉÒÔ²é¿´µ±Ç°¹ºÎï³µ(ÇëÇóCartSession)ºÍÒÑ¹ºÂò¶©µ¥¼°ÊéÄ¿(ÇëÇóOrderServlet)£»
- ¿ÉÒÔÑ¡Ôñ¹ºÂòÍ¼Êé£¬ÇëÇóPurchase£¬¹ºÂò³É¹¦ºóË¢ĞÂµ±Ç°Ò³Ãæ£»
- ¿ÉÒÔÑ¡Ôñ×¢Ïú(ÇëÇóUserSession)»ò»Øµ½ËÑË÷Ò³Ãæ¼ÌĞøä¯ÀÀ£»
- ÓÉSessionListener¼àÌısession¹ıÆÚºó½«¹ºÎï³µÖĞÊéÄ¿´æÈëÊı¾İ¿â£¬µÇÂ¼Ê±»á¶ÁÈ¡£»
+ é»˜è®¤ä»ä¸»é¡µ(index.jsp)è·³è½¬åˆ°æœç´¢é¡µ(search.jsp)ï¼›
+ ç”¨æˆ·åœ¨æœç´¢é¡µé”®å…¥å…³é”®å­—æœç´¢ï¼Œè¯·æ±‚BookServletè·å¾—æ•°æ®å¹¶æ˜¾ç¤ºï¼›
+ æœªç™»å½•ç”¨æˆ·ä¹Ÿå¯ä»¥ä»æœç´¢é¡µé€‰æ‹©ä¹¦ç›®åŠ å…¥è´­ç‰©è½¦(å­˜å…¥session)ï¼Œå¯ä»¥é€‰æ‹©æ³¨å†Œ(register.jsp)æˆ–ç™»å½•(login.jsp)ï¼›
+ æ³¨å†Œé€šè¿‡è¯·æ±‚UserServletå®Œæˆï¼›
+ ç™»å½•é€šè¿‡è¯·æ±‚UserSessionå®Œæˆï¼›
+ ç™»å½•åè·³è½¬åˆ°ä¸ªäººä¸­å¿ƒ(me.jsp)ï¼Œå¯ä»¥æŸ¥çœ‹å½“å‰è´­ç‰©è½¦(è¯·æ±‚CartSession)å’Œå·²è´­ä¹°è®¢å•åŠä¹¦ç›®(è¯·æ±‚OrderServlet)ï¼›
+ å¯ä»¥é€‰æ‹©è´­ä¹°å›¾ä¹¦ï¼Œè¯·æ±‚Purchaseï¼Œè´­ä¹°æˆåŠŸååˆ·æ–°å½“å‰é¡µé¢ï¼›
+ å¯ä»¥é€‰æ‹©æ³¨é”€(è¯·æ±‚UserSession)æˆ–å›åˆ°æœç´¢é¡µé¢ç»§ç»­æµè§ˆï¼›
+ ç”±SessionListenerç›‘å¬sessionè¿‡æœŸåå°†è´­ç‰©è½¦ä¸­ä¹¦ç›®å­˜å…¥æ•°æ®åº“ï¼Œç™»å½•æ—¶ä¼šè¯»å–ï¼›
  
- ¹ÜÀíÔ±Ä¬ÈÏµÇÂ¼ºó½øÈëmanage.jspÒ³Ãæ£¬¿ÉÒÔ¹ÜÀíºóÌ¨Êı¾İ£»
- ¹ÜÀíÔ±¿ÉÒÔ½øÈëstatistics.jspÒ³Ãæ£¬Ñ¡ÔñÓÃ»§Ãû¡¢Ê±¼ä¡¢ÊéÄ¿ÖÖÀàµÈ£¬ÇëÇóStatServlet²é¿´Í³¼ÆÊı¾İ£»
+ ç®¡ç†å‘˜é»˜è®¤ç™»å½•åè¿›å…¥manage.jspé¡µé¢ï¼Œå¯ä»¥ç®¡ç†åå°æ•°æ®ï¼›
+ ç®¡ç†å‘˜å¯ä»¥è¿›å…¥statistics.jspé¡µé¢ï¼Œé€‰æ‹©ç”¨æˆ·åã€æ—¶é—´ã€ä¹¦ç›®ç§ç±»ç­‰ï¼Œè¯·æ±‚StatServletæŸ¥çœ‹ç»Ÿè®¡æ•°æ®ï¼›
 
 
-Êı¾İ¿âschema£º
+æ•°æ®åº“schemaï¼š
 users(userid int primary, name varchar(32) unique, password varchar(32), email varchar(32))
 books(bookid int primary, title varchar(32), author varchar(32), category varchar(32), price double(11,2), stock int)
 orders(orderid primary, userid foreign, bookid foregin, num int, time datetime)
